@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body { height: 100%; }
+
+body{
+	display: table;
+	height: 100%;
+    width: 100%;
+	background: #ececec; /*#fbfbfb; */
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+.tcenter{ text-align: center; }
+
+.tupper{ text-transform: uppercase; }
+
+.fbold{ font-weight: bold; }
+
+.wrapper{
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#name{
+	letter-spacing: 10px;
+	font-size: 20px;
+	color: #3a3a3a;
+}
+
+#links{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#links li{
+	padding: 0 25px;
+	font-size: 30px;
+	color: #777;
+}
+
+.github:hover { color: #333; }
+.facebook:hover { color: #3b5998; }
+.mail:hover { color: #299473; }
+.pgp:hover {color: #ff9f6e;}
+
+#background canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/*::selection{
+	background: #000;
+}*/
